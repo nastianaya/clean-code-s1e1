@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+#body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -34,14 +34,14 @@ body {
 .add-row {
   display: flex;
 }
-ul {
+#todo-list {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+#todo-items, .titeles {
   list-style:none;
 }
-input,button{
+.task, .edit, .delete{
   outline:none;
 }
 button {
@@ -57,7 +57,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.titeles,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -67,7 +67,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.task[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +79,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.task[type="text"]:focus {
   color: #333;
 }
 
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
