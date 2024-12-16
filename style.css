@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.promo .more-info {
+.promo .promo__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -38,17 +38,17 @@
   flex-grow: 1;
 }
 
-.add-row {
+.main-block__add-row {
   display: flex;
 }
 
-#todo-list {
+#main-block__todo-list {
   margin: 0;
   padding: 0px;
 }
 
 #todo-items, 
-.titeles {
+.main-block__titeles {
   list-style: none;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 }
 
 /* Heading */
-.titeles,
+.main-block__titeles,
 h3[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -161,11 +161,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.main-block__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.main-block__edit-mode label {
   display: none;
 }
