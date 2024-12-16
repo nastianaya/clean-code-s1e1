@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.promo { text-align: center;
-}
+  .promo { 
+    text-align: center;
+  }
 }
 .main-block {
   display: block;
@@ -130,7 +131,7 @@ button.delete img:hover {
 /* Completed */
 ul#completed-tasks label {
   text-decoration: line-through
-color: #888;
+  color: #888;
 }
 
 /* Edit Task */
